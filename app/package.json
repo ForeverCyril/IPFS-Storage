@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://ipfs.cyril.tech:8080/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@arco-design/web-react": "^2.43.2",
+    "@next/font": "13.1.1",
+    "add": "^2.0.6",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "ethers": "^5.7.2",
+    "kubo-rpc-client": "^2.0.2",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26"
+  }
+}
